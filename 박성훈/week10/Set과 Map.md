@@ -91,5 +91,21 @@ Set
 - 집합 연산
   - 교집합
     ```
-    Set prototype.intersection
+    Set.prototype.intersection = function (set) {
+      const result = new Set();
+
+      for (const value of set) {
+        // 2개의 set 요소가 공통되는 요소면 교집합 대상이다
+        if (this.has(value)) result.add(value); 
+      }
+
+      return result;
+    };
+
+    // OR
+
+    Set.prototype.intersection = function (set) {
+      return new Set([...this].filter(v => set.has(v)));
+    };
     ```
+  - 합집합
