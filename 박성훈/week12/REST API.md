@@ -26,7 +26,7 @@ REST API 설계 원칙
 
 JSON Server를 이용한 REST API 실습
 ---
-JSON Server 설치
-=> 루트 폴더에 db.json 파일 생성 
-=> JSON Server 실행 
--> GET / POST / PUT / PATCH / DELETE 요청
+1. JSON Server 설치
+2. 루트 폴더에 db.json 파일 생성
+3. JSON Server 실행
+4. GET / POST / PUT / PATCH / DELETE 요청
