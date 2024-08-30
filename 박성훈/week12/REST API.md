@@ -11,7 +11,7 @@ REST API의 구성
 REST API 설계 원칙
 ---
 1. URI는 리소스를 표현해야 한다.
-  - 리소스를 식별할 수 있는 이름은 동사보다느 명사를 사용한다. 따라서 get과 같은 행위에 대한 표현이 들어가선 안된다.
+  - 리소스를 식별할 수 있는 이름은 동사보다는 명사를 사용한다. 따라서 get과 같은 행위에 대한 표현이 들어가선 안된다.
     ```
     # bad
     GET /getTodos/1
@@ -26,4 +26,4 @@ REST API 설계 원칙
 
 JSON Server를 이용한 REST API 실습
 ---
-- JSON Server 설치 ==> 루트 폴더에 db.json 파일 생성 ==> JSON Server 실행 ==> GET / POST / PUT / PATCH / DELETE 요청
+- JSON Server 설치 => 루트 폴더에 db.json 파일 생성 ==> JSON Server 실행 ==> GET / POST / PUT / PATCH / DELETE 요청
