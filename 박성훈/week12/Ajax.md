@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/bf6ec464-5bca-4f1b-a07c-59460de81537)43장 Ajax
+43장 Ajax
 ===
 
 Ajax란?
